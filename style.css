@@ -184,10 +184,72 @@ header {
     Call to action Style
  ****************/
 
-.call-to-action {}
+.call-to-action {
+    padding: 70px 0;
+    background: #f7f7f7a1;
+}
+
+.action-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.action-content h2 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 5px;
+}
+
+.action-content p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-bottom: 24px;
+}
+
+.action-image img {
+    width: 100%;
+}
 
 /****************
     Footer Style
  ****************/
 
-footer {}
+footer {
+    padding: 70px 0 40px 0;
+    text-align: center;
+}
+
+footer img {
+    max-width: 400px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a {
+    color: #969BAB;
+    background: #0b0d170c;
+    height: 32px;
+    width: 32px;
+    margin: 0 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.footer-nav ul li:hover a {
+    transform: rotate(360deg);
+    color: #fff;
+    background: #E02C6D;
+}
