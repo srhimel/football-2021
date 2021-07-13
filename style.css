@@ -1,0 +1,57 @@
+/****************
+ Common Style  
+ ****************/
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Font Family used: Poppins
+ Font Weight: 400, 500, 700 */
+
+header, section, footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 1160px;
+}
+
+/****************
+    Header Style
+ ****************/
+
+header {}
+
+/****************
+    Player Info Style
+ ****************/
+
+.player-info {}
+
+/****************
+    Results Style
+ ****************/
+
+.results {}
+
+/****************
+    Player Card Style
+ ****************/
+
+.player-card {}
+
+/****************
+    Call to action Style
+ ****************/
+
+.call-to-action {}
+
+/****************
+    Footer Style
+ ****************/
+
+footer {}
