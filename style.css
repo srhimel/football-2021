@@ -7,6 +7,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Font Family used: Poppins
  Font Weight: 400, 500, 700 */
 
@@ -20,11 +24,80 @@ header, section, footer {
     width: 1160px;
 }
 
+.btn {
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #fff;
+}
+
 /****************
     Header Style
  ****************/
 
-header {}
+header {
+    background: #2D25A0;
+    padding-top: 42px;
+    padding-bottom: 86px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li a {
+    margin-right: 36px;
+    color: #fff;
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 49px;
+}
+
+.header-slogan h1 {
+    font-size: 64px;
+    color: #fff;
+    line-height: 80px;
+}
+
+.header-image {
+    position: relative;
+}
+
+.header-image img.player {
+    width: 100%;
+    position: relative;
+    transition: 0.4s all linear;
+}
+
+.header-image:hover img.player {
+    transform: scale(1.04) rotateZ(3deg);
+}
+
+.header-image img.ball {
+    width: 90px;
+    position: absolute;
+    left: 0;
+    top: 21%;
+    transition: 0.25s all ease-in 0.5s;
+}
+
+.header-image:hover img.ball {
+    left: -50px;
+    top: 10%;
+    transform: scale(.8) rotate(160deg);
+}
 
 /****************
     Player Info Style
