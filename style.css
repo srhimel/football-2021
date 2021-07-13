@@ -172,13 +172,127 @@ header {
     Results Style
  ****************/
 
-.results {}
+.results {
+    padding: 70px 0;
+    background: #2D25A0;
+}
+
+.results-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    align-items: center;
+}
+
+.leauge-table {
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.leauge-table h3 {
+    margin-top: 0;
+    font-size: 25px;
+    line-height: 60px;
+    margin-bottom: 5px;
+}
+
+.result-content {
+    color: #fff;
+}
+
+.result-content h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.result-content p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    text-align: justify;
+}
 
 /****************
-    Player Card Style
+    Products Style
  ****************/
 
-.player-card {}
+.products {
+    padding: 70px 0;
+}
+
+.products-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.product-item {
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.2s all linear;
+    padding: 15px;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.product-details h3 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.product-details .product-price {
+    font-size: 18px;
+    color: #fff;
+    margin: 5px 0 15px 0;
+    background: #2D25A0;
+    display: block;
+    padding: 2px;
+    border: 2px solid #2D25A0;
+    transition: .3s;
+}
+
+.product-details .product-price:hover {
+    background: #fff;
+    color: #2D25A0;
+    transform: translateY(-4px);
+    box-shadow: 3px 3px 0px #2D25A0;
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.fas.filled {
+    color: #FFC014;
+}
+
+.fas.empty {
+    color: #e7e3e3;
+}
+
+.product-wishlist {
+    margin-left: auto;
+    color: #E02C6D;
+    background: #FFE4E8;
+    border-radius: 20px;
+    padding: 5px 15px;
+    transition: .3s all ease-out;
+}
+
+.product-wishlist:hover {
+    background: #E02C6D;
+    color: #fff;
+}
 
 /****************
     Call to action Style
