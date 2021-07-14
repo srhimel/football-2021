@@ -331,6 +331,7 @@ header {
     position: relative;
 }
 
+/* 
 .play-btn {
     width: 100px;
     height: 100px;
@@ -346,6 +347,7 @@ header {
 
 /* triangle */
 
+/* 
 .play-btn::after {
     content: "";
     position: absolute;
@@ -362,10 +364,11 @@ header {
     z-index: 100;
     -webkit-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
+} */
 
 /* pulse wave */
 
+/* 
 .play-btn:before {
     content: "";
     position: absolute;
@@ -418,6 +421,7 @@ header {
         box-shadow: none;
     }
 }
+ */
 
 .action-image img {
     width: 100%;
