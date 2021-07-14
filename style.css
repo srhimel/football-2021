@@ -426,4 +426,11 @@ footer img {
     footer img {
         width: 70%;
     }
+    .header-image img.ball {
+        width: 70px;
+    }
+    .header-image:hover img.ball {
+        left: 0;
+        top: 0;
+    }
 }
