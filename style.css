@@ -208,6 +208,7 @@ header {
 .result-content h2 {
     font-size: 48px;
     margin: 0;
+    line-height: 60px;
 }
 
 .result-content p {
@@ -436,6 +437,7 @@ footer {
 
 footer img {
     max-width: 400px;
+    margin-bottom: 30px;
 }
 
 .footer-nav ul {
@@ -464,6 +466,10 @@ footer img {
     transform: rotate(360deg);
     color: #fff;
     background: #E02C6D;
+}
+
+footer .copiright-text {
+    font-size: 18px;
 }
 
 /* Responsive Css  */
